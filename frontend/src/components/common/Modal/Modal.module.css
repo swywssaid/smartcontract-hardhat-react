@@ -1,0 +1,39 @@
+.wrapper {
+  width: 13rem;
+  height: 8rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrapper h3 {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.wrapper p {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  font-weight: regular;
+  font-size: 1rem;
+  color: #6c737f;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

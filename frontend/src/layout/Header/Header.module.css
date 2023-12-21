@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  position: sticky;
+  z-index: 40;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(30px);
+  opacity: 0.9;
+  background-color: #ffffff;
+  top: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.epContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;
+}
