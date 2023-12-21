@@ -1,8 +1,7 @@
 ## Quick start
 
 ```sh
-git clone https://github.com/NomicFoundation/hardhat-boilerplate.git
-cd hardhat-boilerplate
+git clone https://github.com/swywssaid/smartcontract-hardhat-react.git
 npm install
 ```
 
